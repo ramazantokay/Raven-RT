@@ -1,4 +1,4 @@
-# Raven: A Feature-Rich Ray/Path Tracer
+# Raven: Ray/Path Tracer
 
 **Raven** is a ray/path tracer developed in modern C++ (C++20) as part of my **Advanced Ray Tracing** coursework. It supports a wide range of rendering features, including various intersection methods, realistic materials, advanced lighting, and texture techniques.
 
