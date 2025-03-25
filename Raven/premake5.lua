@@ -17,6 +17,10 @@ project "Raven"
         "src/**.cc"
     }
 
+    filter { "files:src/Utils/miniz.c" }
+        flags { "NoPCH" }
+    filter{}
+
 
     includedirs
     {
