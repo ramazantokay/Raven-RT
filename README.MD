@@ -1,5 +1,7 @@
 # Raven: Ray/Path Tracer
 
+![Raven](Nest/src/Scenes/Outputs/raven.png)
+
 **Raven** is a ray/path tracer developed in modern C++ (C++20) as part of my **Advanced Ray Tracing** coursework. It supports a wide range of rendering features, including various intersection methods, realistic materials, advanced lighting, and texture techniques.
 
 You can follow my journey and detailed progress on my [personal blog](https://ramazantokay.blogspot.com/2024/10/raven-beginning-of-my-ray-tracing.html), where I share insights, challenges, and results from each assignment.
@@ -67,11 +69,48 @@ You can follow my journey and detailed progress on my [personal blog](https://ra
 - **High Dynamic Range (HDR) & Tone Mapping**
   - Reinhard Photographic Tone Mapping
 
-### Scene Management and Profiling
+### Scene Management
 - **Scene Description:** XML-based scene description format, supporting meshes in XML and PLY file formats.
-- **Integrated Profiler:** Automatically generates profiling data (JSON format) for performance analysis on each rendered scene.
+
+### Performance and Profiling
+- **Multithreading** (Parallel rendering to utilize multiple CPU cores effectively)
+- **Integrated Profiler:** Automatically generates profiling data (JSON format) for each rendered scene.
 
 ---
+
+## Example Scenes
+
+### David Scene with Point Light 100 ms
+
+![David](Nest/src/Scenes/Outputs/David_ms_100.png)
+
+### David Scene with Area Light 400 ms
+
+![David Area Light](Nest/src/Scenes/Outputs/David_400ms_area.png)
+
+### Chess Scene with Area Light 900 ms
+
+![Chess](Nest/src/Scenes/Outputs/chess_all_900s.png)
+
+![Chess DOF](Nest/src/Scenes/Outputs/chess_all_dof_900s.png)
+
+![Chess DOF Glass Queen](Nest/src/Scenes/Outputs/chess_all_dof_900s_glass_queen.png)
+
+
+
+### Cornell Box with Area Light
+
+![Cornell Box](Nest/src/Scenes/Outputs/cornellbox_area_1000s.png)
+
+
+### Cornell Box with Dielectric and Conductor Materials
+
+![Cornell Box Glass](Nest/src/Scenes/Outputs/cornellbox_recursive_400ms_area.png)
+
+![Cornell Box Metal](Nest/src/Scenes/Outputs/cornellbox_brushed_metal_400s.png)
+
+
+
 
 ## How to Use Raven
 
