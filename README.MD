@@ -2,7 +2,7 @@
 
 ![Raven](Nest/src/Scenes/Outputs/raven.png)
 
-**Raven** is a ray/path tracer developed in modern C++ (C++20) as part of my **CENG 795: 5Advanced Ray Tracing** coursework. It supports a wide range of rendering features, including various intersection methods, realistic materials, advanced lighting, and texture techniques.
+**Raven** is a ray/path tracer developed in C++20 as part of my **CENG 795: 5Advanced Ray Tracing** coursework. It supports a wide range of rendering features, including various intersection methods, realistic materials, advanced lighting, and texture techniques.
 
 You can follow my journey and detailed progress on my [personal blog](https://ramazantokay.blogspot.com/2024/10/raven-beginning-of-my-ray-tracing.html), where I share insights, challenges, and results from each assignment.
 
