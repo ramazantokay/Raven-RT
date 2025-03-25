@@ -13,12 +13,13 @@ You can follow my journey and detailed progress on my [personal blog](https://ra
 - **Ray-Object Intersection**
   - Triangle Intersection
   - Sphere Intersection
+  - Mesh Intersection
 
 ### Acceleration Structures
 - **Bounding Volume Hierarchy (BVH)**
 
 ### Transformations
-- Object-level Transformation
+- Transformation
 - Instancing (efficient rendering of duplicate geometry)
 
 ### Rendering Techniques
@@ -39,6 +40,7 @@ You can follow my journey and detailed progress on my [personal blog](https://ra
 
 ### Lighting
 - **Point Lights**
+- **Area Lights**
 - **Directional Lights**
 - **Spot Lights**
 - **Environmental Lighting**
