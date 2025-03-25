@@ -2,7 +2,7 @@
 
 ![Raven](Nest/src/Scenes/Outputs/raven.png)
 
-**Raven** is a ray/path tracer developed in modern C++ (C++20) as part of my **Advanced Ray Tracing** coursework. It supports a wide range of rendering features, including various intersection methods, realistic materials, advanced lighting, and texture techniques.
+**Raven** is a ray/path tracer developed in modern C++ (C++20) as part of my **CENG 795: 5Advanced Ray Tracing** coursework. It supports a wide range of rendering features, including various intersection methods, realistic materials, advanced lighting, and texture techniques.
 
 You can follow my journey and detailed progress on my [personal blog](https://ramazantokay.blogspot.com/2024/10/raven-beginning-of-my-ray-tracing.html), where I share insights, challenges, and results from each assignment.
 
@@ -80,6 +80,23 @@ You can follow my journey and detailed progress on my [personal blog](https://ra
 
 ## Example Scenes
 
+### Path Tracing Sponza Scene
+
+![Path Tracing](Nest/src/Scenes/Outputs/pt/sponza/sponza_path.png)
+
+### Path Tracing Cornell Box Scene
+
+![Path Tracing](Nest/src/Scenes/Outputs/pt/diffuse_importance_nee.png)
+
+![Path Tracing](Nest/src/Scenes/Outputs/pt/cornellbox_jaroslav_path_glass/glass_importance_nee_weighted_revised_prism.png)
+
+
+### Path Tracing Cornell Box with Sphere and Mesh Light Scenes
+
+![Path Tracing ](Nest/src/Scenes/Outputs/pt/object_lights/cornellbox_jaroslav_glossy_area_sphere.png)
+
+![Path Tracing ](Nest/src/Scenes/Outputs/pt/object_lights/cornellbox_jaroslav_diffuse_area.png)
+
 ### David Scene with Point Light 100 ms
 
 ![David](Nest/src/Scenes/Outputs/David_ms_100.png)
@@ -108,6 +125,20 @@ You can follow my journey and detailed progress on my [personal blog](https://ra
 ![Cornell Box Glass](Nest/src/Scenes/Outputs/cornellbox_recursive_400ms_area.png)
 
 ![Cornell Box Metal](Nest/src/Scenes/Outputs/cornellbox_brushed_metal_400s.png)
+
+### Point Light, Directional Light, and Environmental Light
+
+![Point Light](Nest/src/Scenes/Outputs/cube_point.png)
+
+![Directional Light](Nest/src/Scenes/Outputs/cube_directional.png)
+
+![Environmental Light](Nest/src/Scenes/Outputs/sphere_env_light900.png)
+
+![Environmental Light Mirror Sphere](Nest/src/Scenes/Outputs/mirror_sphere_env.png)
+
+![Environmental Light Glass Sphere](Nest/src/Scenes/Outputs/glass_sphere_env.png)
+
+
 
 
 
