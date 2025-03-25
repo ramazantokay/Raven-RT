@@ -173,6 +173,11 @@ Rendered images will be saved automatically in the output folder specified by th
 
 ---
 
+## TODO: Future Work
+
+- Implement Smooth Shading 
+- Refactor the codebase for better readability and maintainability
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). You are free to modify, distribute, and use it according to the terms described.
