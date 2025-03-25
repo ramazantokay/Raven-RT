@@ -105,6 +105,10 @@ You can follow my journey and detailed progress on my [personal blog](https://ra
 
 ![David Area Light](Nest/src/Scenes/Outputs/David_400ms_area.png)
 
+## Dragon Scene with Spot Lights
+
+![Dragon](Nest/src/Scenes/Outputs/dragon_new_with_spot.png)
+
 ### Chess Scene with Area Light 900 ms
 
 ![Chess](Nest/src/Scenes/Outputs/chess_all_900s.png)
@@ -113,12 +117,9 @@ You can follow my journey and detailed progress on my [personal blog](https://ra
 
 ![Chess DOF Glass Queen](Nest/src/Scenes/Outputs/chess_all_dof_900s_glass_queen.png)
 
-
-
 ### Cornell Box with Area Light
 
 ![Cornell Box](Nest/src/Scenes/Outputs/cornellbox_area_1000s.png)
-
 
 ### Cornell Box with Dielectric and Conductor Materials
 

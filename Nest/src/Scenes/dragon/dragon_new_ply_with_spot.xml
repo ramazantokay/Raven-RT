@@ -1,0 +1,160 @@
+<Scene>
+	<BackgroundColor>12 12 12</BackgroundColor>
+	<ShadowRayEpsilon>1e-3</ShadowRayEpsilon>
+	<MaxRecursionDepth>6</MaxRecursionDepth>
+	<Cameras>
+		<Camera id="1">
+			<Position>4.207026958465576 -10.014049530029297 3.8502249717712402</Position>
+			<Gaze>-0.39256003499031067 0.9159110188484192 -0.18368813991546631</Gaze>
+			<Up>0.03296642005443573 -0.07692152261734009 0.9964920282363892</Up>
+			<NearPlane>-1.77778 1.77778 -1.0 1.0</NearPlane>
+			<NearDistance>3</NearDistance>
+			<ImageResolution>2560 1440</ImageResolution>
+            <NumSamples>1</NumSamples>
+			<ImageName>dragon_new_with_spot.png</ImageName>
+		</Camera>
+	</Cameras>
+	<Lights>
+		<AmbientLight>20 20 20</AmbientLight>
+        
+		<!--<PointLight id="1">
+			<Position>7.8121275901794434 -4.267995357513428 5.903861999511719</Position>
+			<Intensity>3700 3700 3700</Intensity>
+		</PointLight>
+		<PointLight id="2">
+			<Position>-4.969523906707764 -4.267995357513428 5.903861999511719</Position>
+			<Intensity>4000 4000 4000</Intensity>
+		</PointLight>-->
+        
+        <SpotLight id="1">
+            <Position>-2 0 12</Position>
+            <Direction>0.1 0 -1</Direction>
+            <Intensity>30000 0 0</Intensity>
+            <CoverageAngle>45</CoverageAngle>
+            <FalloffAngle>30</FalloffAngle>
+        </SpotLight>
+        <SpotLight id="2">
+            <Position>-2 3 12</Position>
+            <Direction>0.1 0 -1</Direction>
+            <Intensity>0 30000 0</Intensity>
+            <CoverageAngle>45</CoverageAngle>
+            <FalloffAngle>30</FalloffAngle>
+        </SpotLight>
+        <SpotLight id="3">
+            <Position>2 -15 6</Position>
+            <Direction>0 1 -0.4</Direction>
+            <Intensity>0 0 100000</Intensity>
+            <CoverageAngle>45</CoverageAngle>
+            <FalloffAngle>30</FalloffAngle>
+        </SpotLight>
+	</Lights>
+	<Materials>
+		<Material id="1">
+			<AmbientReflectance>1 1 1</AmbientReflectance>
+			<DiffuseReflectance>0.300000011920929 0.300000011920929 0.300000011920929</DiffuseReflectance>
+			<SpecularReflectance>0.0 0.0 0.0</SpecularReflectance>
+			<MirrorReflectance>0.5 0.5 0.5</MirrorReflectance>
+			<PhongExponent>1</PhongExponent>
+		</Material>
+		<Material id="2">
+			<AmbientReflectance>1 1 1</AmbientReflectance>
+			<DiffuseReflectance>0.9847445487976074 0.9847445487976074 0.9847445487976074</DiffuseReflectance>
+			<SpecularReflectance>0.0 0.0 0.0</SpecularReflectance>
+			<MirrorReflectance>0.5 0.5 0.5</MirrorReflectance>
+			<PhongExponent>1</PhongExponent>
+		</Material>
+		<Material id="3">
+			<AmbientReflectance>1 1 1</AmbientReflectance>
+			<DiffuseReflectance>0.800000011920929 0.800000011920929 0.800000011920929</DiffuseReflectance>
+			<SpecularReflectance>0.0 0.0 0.0</SpecularReflectance>
+			<MirrorReflectance>0.5 0.5 0.5</MirrorReflectance>
+			<PhongExponent>1</PhongExponent>
+		</Material>
+		<Material id="4">
+			<AmbientReflectance>0 0 0</AmbientReflectance>
+			<DiffuseReflectance>0 0 0</DiffuseReflectance>
+			<SpecularReflectance>0 0 0</SpecularReflectance>
+			<MirrorReflectance>0 0 0</MirrorReflectance>
+			<PhongExponent>1</PhongExponent>
+		</Material>
+		<Material id="5">
+			<AmbientReflectance>1 1 1</AmbientReflectance>
+			<DiffuseReflectance>0.300000011920929 0.300000011920929 0.300000011920929</DiffuseReflectance>
+			<SpecularReflectance>0.0 0.0 0.0</SpecularReflectance>
+			<MirrorReflectance>0.5 0.5 0.5</MirrorReflectance>
+			<PhongExponent>1</PhongExponent>
+		</Material>
+		<Material id="6">
+			<AmbientReflectance>1 1 1</AmbientReflectance>
+			<DiffuseReflectance>0.800000011920929 0.800000011920929 0.800000011920929</DiffuseReflectance>
+			<SpecularReflectance>0.0 0.0 0.0</SpecularReflectance>
+			<MirrorReflectance>0.5 0.5 0.5</MirrorReflectance>
+			<PhongExponent>1</PhongExponent>
+		</Material>
+		<Material id="7">
+			<AmbientReflectance>1 1 1</AmbientReflectance>
+			<DiffuseReflectance>0.800000011920929 0.800000011920929 0.800000011920929</DiffuseReflectance>
+			<SpecularReflectance>0.0 0.0 0.0</SpecularReflectance>
+			<MirrorReflectance>0.5 0.5 0.5</MirrorReflectance>
+			<PhongExponent>1</PhongExponent>
+		</Material>
+		<Material id="8">
+			<AmbientReflectance>1 1 1</AmbientReflectance>
+			<DiffuseReflectance>0.800000011920929 0.800000011920929 0.800000011920929</DiffuseReflectance>
+			<SpecularReflectance>0.0 0.0 0.0</SpecularReflectance>
+			<MirrorReflectance>0.5 0.5 0.5</MirrorReflectance>
+			<PhongExponent>1</PhongExponent>
+		</Material>
+		<Material id="9">
+			<AmbientReflectance>1 1 1</AmbientReflectance>
+			<DiffuseReflectance>0.800000011920929 0.800000011920929 0.800000011920929</DiffuseReflectance>
+			<SpecularReflectance>0.0 0.0 0.0</SpecularReflectance>
+			<MirrorReflectance>0.5 0.5 0.5</MirrorReflectance>
+			<PhongExponent>1</PhongExponent>
+		</Material>
+		<Material id="10">
+			<AmbientReflectance>1 1 1</AmbientReflectance>
+			<DiffuseReflectance>0.800000011920929 0.800000011920929 0.800000011920929</DiffuseReflectance>
+			<SpecularReflectance>0.0 0.0 0.0</SpecularReflectance>
+			<MirrorReflectance>0.5 0.5 0.5</MirrorReflectance>
+			<PhongExponent>1</PhongExponent>
+		</Material>
+		<Material id="11">
+			<AmbientReflectance>1 1 1</AmbientReflectance>
+			<DiffuseReflectance>0.800000011920929 0.800000011920929 0.800000011920929</DiffuseReflectance>
+			<SpecularReflectance>0.0 0.0 0.0</SpecularReflectance>
+			<MirrorReflectance>0.5 0.5 0.5</MirrorReflectance>
+			<PhongExponent>1</PhongExponent>
+		</Material>
+		<Material id="12">
+			<AmbientReflectance>1 1 1</AmbientReflectance>
+			<DiffuseReflectance>1.0 1.0 1.0</DiffuseReflectance>
+			<SpecularReflectance>0.0 0.0 0.0</SpecularReflectance>
+			<MirrorReflectance>1.0 1.0 1.0</MirrorReflectance>
+			<PhongExponent>1</PhongExponent>
+		</Material>
+	</Materials>
+
+    <Textures>
+        <TextureMap id="1" type="perlin">
+            <DecalMode>blend_kd</DecalMode>
+            <NoiseConversion>absval</NoiseConversion>
+            <NoiseScale>1</NoiseScale>
+            <NumOctaves>7</NumOctaves>
+        </TextureMap>
+    </Textures>
+
+	<VertexData>0 0 0</VertexData>
+	<Objects>
+		<Mesh id="1">
+			<Material>5</Material>
+			<Faces plyFile="dragon_new_ply_ply/mesh_1.ply" /></Mesh>
+		<Mesh id="2">
+			<Material>1</Material>
+			<Faces plyFile="dragon_new_ply_ply/mesh_2.ply" /></Mesh>
+		<Mesh id="3" shadingMode="flat">
+			<Material>11</Material>
+            <Textures>1</Textures>
+			<Faces plyFile="dragon_new_ply_ply/mesh_3.ply" /></Mesh>
+	</Objects>
+</Scene>
