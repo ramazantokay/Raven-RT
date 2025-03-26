@@ -159,7 +159,7 @@ You can follow my journey and detailed progress on my [personal blog](https://ra
 
 1. Clone the Repository:
 ```bash
-git clone https://github.com/ramazantokay/raven.git
+git clone https://github.com/ramazantokay/Raven-RT.git
 cd raven
 ```
 
