@@ -160,7 +160,7 @@ You can follow my journey and detailed progress on my [personal blog](https://ra
 1. Clone the Repository:
 ```bash
 git clone https://github.com/ramazantokay/Raven-RT.git
-cd raven
+cd Raven-RT
 ```
 
 2. Before building the project, you might need to add *executable permission* to the build script and premake executable.
